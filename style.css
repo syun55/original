@@ -474,7 +474,7 @@ nav a:hover {
 
 .stage-icon {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 85%;
     transform: translateX(-50%);
     width: 200px;

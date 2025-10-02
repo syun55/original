@@ -1046,7 +1046,7 @@ footer .cta-buttons {
 
     /* Header */
     header {
-        height: 100vh;
+        height: auto;
         justify-content: flex-start;
         padding-top: 0;
     }
@@ -1565,7 +1565,7 @@ footer .cta-buttons {
 
 @media(max-width :440px) {
     header {
-        height: 100vh
+        height: auto;
     }
 
     .cta-buttons {

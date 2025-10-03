@@ -706,9 +706,12 @@ nav a:hover {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 15px;
     border: 2px solid #39A3BF;
 }
+
+.voice-item {
+    flex: 1 1 0%;
+}    
 
 .student-initial {
     font-size: 32px;
@@ -1144,16 +1147,19 @@ footer .cta-buttons {
     .hamburger.is-active span:nth-child(1) {
         top: 10px;
         transform: rotate(135deg);
+        background: #fff;
     }
 
     .hamburger.is-active span:nth-child(2) {
         opacity: 0;
         left: -60px;
+        background: #fff;
     }
 
     .hamburger.is-active span:nth-child(3) {
         top: 10px;
         transform: rotate(-135deg);
+        
     }
 
 
